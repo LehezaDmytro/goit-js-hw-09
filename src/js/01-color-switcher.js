@@ -8,7 +8,7 @@ btnStart.addEventListener('click', clickStart)
 let intervalId = null;
 
 function clickStart() {
-    intervalId = setInterval(() => { document.body.style.backgroundColor = getRandomHexColor() }, 2000)
+    intervalId = setInterval(() => { document.body.style.backgroundColor = getRandomHexColor() }, 1000)
     btnStart.setAttribute("disabled", "")
     btnStop.removeAttribute("disabled")
 }
